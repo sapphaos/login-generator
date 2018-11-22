@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: geco.LoginGeneratorTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.447 s <<< FAILURE! - in geco.LoginGeneratorTest
-generateLoginForNomAndPrenomExistsTrue(geco.LoginGeneratorTest)  Time elapsed: 0.047 s  <<< FAILURE!
-org.junit.ComparisonFailure: expected:<AGAI[1]> but was:<AGAI[]>
-	at geco.LoginGeneratorTest.generateLoginForNomAndPrenomExistsTrue(LoginGeneratorTest.java:30)
-
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.571 s - in geco.LoginGeneratorTest
