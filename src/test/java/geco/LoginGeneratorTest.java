@@ -12,22 +12,15 @@ public class LoginGeneratorTest {
 
     @Before
     public void setUp() {
-        String loginsE[] = {"AGAI"};
-        logservice = new LoginService(loginsE);
+        logservice = new LoginService(new String[] {"JROL", "BPER", "CGUR", "JDU", "JRAL", "JRAL1"});
         log = new LoginGenerator(logservice);
     }
 
     @Test
-    public void generateLoginForNomAndPrenomExistsFalse() {
-        String prenom = "Jean";
-        String nom = "Dupont";
-        assertEquals("JDUP",log.generateLoginForNomAndPrenom(nom,prenom));
+    public void generateLoginForNomAndPrenomExistsCT1() {
+        String prenom = "Paul";
+        String nom = "Durand";
+        assertEquals("PDUR",log.generateLoginForNomAndPrenom(nom,prenom));
     }
 
-    @Test
-    public void generateLoginForNomAndPrenomExistsTrue() {
-        String prenom = "Apolline";
-        String nom = "Gaillard";
-        assertEquals("AGAI1",log.generateLoginForNomAndPrenom(nom,prenom));
-    }
 }

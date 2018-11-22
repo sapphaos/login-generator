@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="geco.LoginGeneratorTest" time="0.354" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="geco.LoginGeneratorTest" time="0.447" tests="2" errors="0" skipped="0" failures="1">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -7,7 +7,7 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/home/apolline/Documents/logingenerator/target/test-classes:/home/apolline/Documents/logingenerator/target/generated-classes/cobertura:/home/apolline/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/apolline/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/home/apolline/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/apolline/.m2/repository/net/sourceforge/cobertura/cobertura/2.1.1/cobertura-2.1.1.jar:/home/apolline/.m2/repository/jaxen/jaxen/1.1.4/jaxen-1.1.4.jar:/home/apolline/.m2/repository/org/apache/ant/ant/1.8.3/ant-1.8.3.jar:/home/apolline/.m2/repository/org/apache/ant/ant-launcher/1.8.3/ant-launcher-1.8.3.jar:/home/apolline/.m2/repository/org/apache/ant/ant-junit/1.8.3/ant-junit-1.8.3.jar:/home/apolline/.m2/repository/org/mortbay/jetty/servlet-api-2.5/6.1.14/servlet-api-2.5-6.1.14.jar:/home/apolline/.m2/repository/org/mortbay/jetty/jetty/6.1.14/jetty-6.1.14.jar:/home/apolline/.m2/repository/org/mortbay/jetty/jetty-util/6.1.14/jetty-util-6.1.14.jar:/usr/lib/jvm/java-8-oracle/jre/../lib/tools.jar:/home/apolline/.m2/repository/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar:/home/apolline/.m2/repository/ch/qos/logback/logback-classic/1.0.13/logback-classic-1.0.13.jar:/home/apolline/.m2/repository/ch/qos/logback/logback-core/1.0.13/logback-core-1.0.13.jar:/home/apolline/.m2/repository/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar:"/>
+    <property name="java.class.path" value="/home/apolline/Documents/logingenerator/target/test-classes:/home/apolline/Documents/logingenerator/target/classes:/home/apolline/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/apolline/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/home/apolline/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
@@ -17,8 +17,8 @@
     <property name="user.country" value="FR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
-    <property name="sun.java.command" value="/home/apolline/Documents/logingenerator/target/surefire/surefirebooter8667495447053600568.jar /home/apolline/Documents/logingenerator/target/surefire 2018-11-20T11-56-54_530-jvmRun1 surefire6405390356182354157tmp surefire_14136398012736247058tmp"/>
-    <property name="surefire.test.class.path" value="/home/apolline/Documents/logingenerator/target/test-classes:/home/apolline/Documents/logingenerator/target/generated-classes/cobertura:/home/apolline/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/apolline/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/home/apolline/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/apolline/.m2/repository/net/sourceforge/cobertura/cobertura/2.1.1/cobertura-2.1.1.jar:/home/apolline/.m2/repository/jaxen/jaxen/1.1.4/jaxen-1.1.4.jar:/home/apolline/.m2/repository/org/apache/ant/ant/1.8.3/ant-1.8.3.jar:/home/apolline/.m2/repository/org/apache/ant/ant-launcher/1.8.3/ant-launcher-1.8.3.jar:/home/apolline/.m2/repository/org/apache/ant/ant-junit/1.8.3/ant-junit-1.8.3.jar:/home/apolline/.m2/repository/org/mortbay/jetty/servlet-api-2.5/6.1.14/servlet-api-2.5-6.1.14.jar:/home/apolline/.m2/repository/org/mortbay/jetty/jetty/6.1.14/jetty-6.1.14.jar:/home/apolline/.m2/repository/org/mortbay/jetty/jetty-util/6.1.14/jetty-util-6.1.14.jar:/usr/lib/jvm/java-8-oracle/jre/../lib/tools.jar:/home/apolline/.m2/repository/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar:/home/apolline/.m2/repository/ch/qos/logback/logback-classic/1.0.13/logback-classic-1.0.13.jar:/home/apolline/.m2/repository/ch/qos/logback/logback-core/1.0.13/logback-core-1.0.13.jar:/home/apolline/.m2/repository/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar:"/>
+    <property name="sun.java.command" value="/home/apolline/Documents/logingenerator/target/surefire/surefirebooter4780823182117689355.jar /home/apolline/Documents/logingenerator/target/surefire 2018-11-22T12-31-15_640-jvmRun1 surefire6734117816349249444tmp surefire_05622666245527059238tmp"/>
+    <property name="surefire.test.class.path" value="/home/apolline/Documents/logingenerator/target/test-classes:/home/apolline/Documents/logingenerator/target/classes:/home/apolline/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/apolline/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/home/apolline/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/apolline"/>
     <property name="user.language" value="fr"/>
@@ -30,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/apolline/Documents/logingenerator/target/surefire/surefirebooter8667495447053600568.jar"/>
+    <property name="surefire.real.class.path" value="/home/apolline/Documents/logingenerator/target/surefire/surefirebooter4780823182117689355.jar"/>
     <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="1.8.0_191-b12"/>
@@ -59,6 +59,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="generateLoginForNomAndPrenomExistsTrue" classname="geco.LoginGeneratorTest" time="0.289"/>
-  <testcase name="generateLoginForNomAndPrenomExistsFalse" classname="geco.LoginGeneratorTest" time="0.001"/>
+  <testcase name="generateLoginForNomAndPrenomExistsTrue" classname="geco.LoginGeneratorTest" time="0.047">
+    <failure message="expected:&lt;AGAI[1]&gt; but was:&lt;AGAI[]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<AGAI[1]> but was:<AGAI[]>
+	at geco.LoginGeneratorTest.generateLoginForNomAndPrenomExistsTrue(LoginGeneratorTest.java:30)
+]]></failure>
+  </testcase>
+  <testcase name="generateLoginForNomAndPrenomExistsCT1" classname="geco.LoginGeneratorTest" time="0"/>
 </testsuite>
